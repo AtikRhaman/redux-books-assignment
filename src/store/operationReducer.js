@@ -3,7 +3,7 @@
 
 const initialState = {
   count: 0,
-  name: "Asabeneh",
+  name: "Atik",
   color: "#764abc"
 };
 
@@ -14,7 +14,7 @@ const reducer = (state = initialState, action) => {
     case "MINUS_ONE":
       return { ...state, count: state.count - 1 };
     case "CHANGE_NAME":
-      const name = state.name === "Asabeneh" ? "David" : "Asabeneh";
+      const name = state.name === "Atik" ? "Rahman" : "Atik";
       return { ...state, name: name };
     case "CHANGE_COLOR":
       const colors = [
